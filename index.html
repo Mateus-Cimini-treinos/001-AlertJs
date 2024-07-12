@@ -1,0 +1,41 @@
+<!-- aula 1 fazendo uns comandos simples de JavaScript dentro do html -->
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1</title>
+
+<style>
+    body{
+        background-color: #8c0000;
+        color: yellow;
+    }
+</style>
+</head>
+
+<body>
+    <h1>Boa, Sorte !</h1>
+
+    <p>texto aleatortio um monte de blablabla</p>
+    
+
+    <script>
+    var nome = String(window.prompt("qual seu nome?")) // perguntando o nome e convertendo para string
+    window.alert(" E um prazer em te conhecer " + nome) //mostrando uma mensagem personalizada com o nome
+
+    var n1 = Number(window.prompt("primeiro numero")); // perguntando o valor do primeiro numero
+    
+    var n2 = Number(window.prompt("segundo numero")); // perguntando o valor do segundo numero
+
+   
+    var result = n1 + n2  //somando numeros
+
+    window.alert("o resultado e:" + result) // mostrando resultado
+    </script>
+</body>
+</html>
+
